@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://us02st2.zoom.us/static/6.3.18789/image/new/topNav/Zoom_logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h4>Forms in HTML</h4>
+    <form>
+      <label for="uName">UserName:</label>
+      <input type="text" id="uName" placeholder="enter username" required />
+
+      <br /><br />
+
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" placeholder="enter passwod" />
+
+      <br /><br />
+
+      <label for="pNum">Phone Num:</label>
+      <input type="number" id="pNum" placeholder="enter phone number" />
+
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="enter email id" />
+
+      <br /><br />
+
+      <label>Gender:</label>
+      <input type="radio" id="m" name="gender" /> <label for="m">Man</label>
+      <input type="radio" id="f" name="gender" checked /><label for="f"
+        >Female</label
+      >
+      <input type="radio" id="p" name="gender" /><label for="p"
+        >Prefer Not To Say</label
+      >
+
+      <br /><br />
+      <label>Select the course:</label>
+      <input type="checkbox" name="course" id="c" /> <label for="c">C</label>
+      <input type="checkbox" name="course" id="c++" />
+      <label for="c++">C++</label>
+      <input type="checkbox" name="course" id="py" />
+      <label for="py">Py</label>
+      <input type="checkbox" name="course" id="java" checked />
+      <label for="java">Java</label>
+      <input type="checkbox" name="course" id="js" checked />
+      <label for="js">JavaScript</label>
+
+      <br /><br />
+      <label for="lang">select a lang:</label>
+      <select id="lang">
+        <option value=""></option>
+        <option value="f">FSWD</option>
+        <option value="j">Java</option>
+        <option value="d">DSA</option>
+      </select>
+
+      <br /><br />
+      <label for="cmts">Comment:</label>
+      <textarea
+        id="cmts"
+        rows="12"
+        cols="55"
+        placeholder="enter ur comments here ..."
+      ></textarea>
+
+      <br /><br />
+      <!-- <button type="submit">Submit</button> -->
+      <input type="submit" />
+
+      <br /><br />
+      <!-- <button type="reset">Reset</button> -->
+      <input type="reset" />
+    </form>
+
+    <br /><br />
+    <img
+      src="https://us02st2.zoom.us/static/6.3.18789/image/new/topNav/Zoom_logo.svg"
+      alt="zoom logo"
+      height="125"
+      width="120"
+    />
+
+    <video controls>
+      <source src="" type="video/mp4" />
+    </video>
+
+    <video src=""></video>
+
+    <audio controls>
+      <source src="" type="audio/mp3" />
+    </audio>
+
+    <audio src=""></audio>
+  </body>
+</html>

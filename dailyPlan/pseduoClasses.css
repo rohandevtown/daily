@@ -1,0 +1,45 @@
+button{
+  font-size: large;
+}
+
+/* 
+    1. Hover State: 
+        >> Positioning the cursor on the button
+*/
+/* button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+} */
+
+
+/* 2. Active State */
+/* button:active{
+    border: 1px solid red;
+} */
+
+
+/* 3. Focus State */
+/* button:focus{
+    background-color: yellowgreen;
+    color: black;
+} */
+
+/* 1. First Child */
+.child:first-child{
+    background-color: yellow;
+}
+
+
+/* 2. Last Child */
+span:last-child{
+    background-color: red;
+}
+
+
+/* 2.nth-child */
+span:nth-child(5){
+    background-color: yellowgreen;
+}
+
+/* Guys we can drop off, will continue tomorrow */

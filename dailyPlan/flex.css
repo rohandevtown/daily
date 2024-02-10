@@ -1,0 +1,18 @@
+.parent{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    /* values: row (default), row-reverse, column, column-reverse */
+    flex-direction: column;
+    gap: 12px;
+
+
+    /* X-axis: */
+    /* values: flex-start (default), center, flex-end, space-around, space-evenly, space-between*/
+    /* justify-content: space-evenly; */
+
+    /* Y-axis */
+    /* values: flex-start, flex-end, center*/
+    align-items: center;
+
+}

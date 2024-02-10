@@ -1,0 +1,71 @@
+/* 1. Static Position: */
+.staticPos {
+    position: static;
+    background-color: yellow;
+    border: 1px solid red;
+    top: 8px;
+    right: 10px;
+}
+
+/* 2. Relative Position: */
+.relPos{
+    position: relative;
+    background-color: yellow;
+    border: 1px solid red;
+    top: 7px;
+    right: 8px;
+}
+
+.staticShape1{
+    position: static;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    /* top: 15px; */
+}
+
+
+.relPosShape2{
+    position: relative;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    bottom: 25px;
+    left: 12px;
+}
+
+
+/* 3. Absolute Position: */
+.shape1{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+}
+
+.shape2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    bottom: 25px;
+    left: 32px;
+}
+
+/* 4. Fixed Position: */
+.fixPos{
+    position: fixed;
+    background-color: aqua;
+    border: 1px solid black;
+    top: 25px;
+    right: 55px;
+}
+
+/* 5. Sticky Position: */
+.stickyPos{
+    position: sticky;
+    background-color: red;
+    border: 1px solid black;
+    top: 40px;
+    right: 80px;
+}

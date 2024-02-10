@@ -1,0 +1,47 @@
+/* 1. Block Scope */
+.block1{
+    background-color: yellow;
+    display: block;
+    height: 50px;
+}
+
+.block2{
+    background-color: red;
+    display: block;
+}
+
+/* 2. Inline Scope */
+.inline1{
+    background-color: yellow;
+    display: inline;
+    height: 55px;
+    width: 100px;
+}
+
+.inline2 {
+    background-color: red;
+    display: inline;
+}
+
+/* 3. Inline-Block Scope */
+.ib1{
+    display: inline-block;
+    background-color: yellow;
+        height: 55px;
+            width: 100px;
+}
+
+.ib2 {
+    display: inline-block;
+    background-color: red;
+}
+
+
+/* 1. Static Position: */
+.staticPos{
+    position: static;
+    background-color: yellow;
+    border: 1px solid red;
+    top: 8px;
+    right: 10px;
+}

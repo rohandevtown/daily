@@ -1,0 +1,33 @@
+/* Descendant Selector */
+
+ol a{
+    color: red;
+}
+
+/* Direct Child Selector */
+
+div > h4{
+    color: red
+}
+
+
+/* Box Model */
+span{
+    border: 2px solid black;
+
+    /* padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-bottom: 6px */
+
+    /* padding: 5px */
+
+    /* top, right, bottom, left */
+    /* padding: 5px 10px 5px 10px; */
+
+    padding: 5px 10px;
+
+    margin: 25px;
+
+    border-radius: 5%;
+}

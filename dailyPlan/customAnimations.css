@@ -1,0 +1,36 @@
+.box{
+    background-color: black;
+    height: 100vh;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    animation: startShifting 5s;
+}
+
+
+@keyframes startShifting{
+    25%{
+        transform: translate(400px, 0);
+        background-color: yellow;
+        border-radius: 12%;
+    }
+    50%{
+        transform: translate(400px, 450px);
+    }
+    75%{
+        transform: translate(0, 450px);
+        background-color: white;
+        border-radius: 2%;
+    }
+    100%{
+         transform: translate(150px, 150px);
+    }
+}
+

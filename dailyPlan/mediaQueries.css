@@ -1,0 +1,106 @@
+/* Media Queries */
+/* Syntax: */
+/* @media only screen and (max-width: 460px){
+    h6{
+
+    }
+    p{
+
+    }
+} */
+
+
+/* Screen/Device size is <= 1200px */
+/* @media only screen and (max-width: 1200px){
+    h6{
+        color: green;
+        font-size: 22px;
+    }
+    p{
+        color: red;
+        font-size: 12px;
+    }
+} */
+
+
+/* Screen/Device size is <= 850px */
+/* @media only screen and (max-width: 850px) {
+    h6 {
+        color: red;
+        font-size: 22px;
+    }
+
+    p {
+        color: green;
+        font-size: 12px;
+    }
+} */
+
+/* Screen/Device size is <= 440px */
+/* @media only screen and (max-width: 440px) {
+    h6 {
+        color: white;
+        background-color: black;
+        font-size: 22px;
+    }
+
+    p {
+        color: green;
+        font-size: 12px;
+    }
+} */
+
+/* Screen/Device size is <= 200px */
+/* @media only screen and (max-width: 200px) {
+    h6 {
+       border: 1px solid red;
+    }
+
+    p {
+        color: green;
+        font-size: 12px;
+    }
+} */
+
+
+
+/* Screen/Device size is >= 450px */
+@media only screen and (min-width: 450px) {
+    h6 {
+        color: red;
+        font-size: 22px;
+    }
+
+    p {
+        color: green;
+        font-size: 12px;
+    }
+}
+
+
+/* Screen/Device size is >= 850px */
+@media only screen and (min-width: 850px) {
+    h6 {
+        color: red;
+        font-size: 22px;
+    }
+
+    p {
+        color: green;
+        font-size: 12px;
+    }
+}
+
+
+/* Screen/Device size is >= 1200px */
+@media only screen and (min-width: 1200px) {
+    h6 {
+        color: white;
+        background-color: black;
+    }
+
+    p {
+        color: green;
+        font-size: 12px;
+    }
+}

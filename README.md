@@ -52,3 +52,12 @@ MVC Architecture:
     >> Model (Structure od MongoDb Collection/Schema)
     >> Views (React)
     >> Controllers (Brain of our routes)
+
+
+React?
+    >> SPA (Single Page Application) => Your entire appln contains only single HTML Page
+    >> Virtual DOM  
+    >> Components
+            >> Class Component (Old)
+            >> Function Component
+    >> Props
